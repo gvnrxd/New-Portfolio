@@ -1,12 +1,24 @@
 .skillsSection {
   list-style: none;
-  background: blue;
-  display: grid;
-  gap: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  gap: 0.75rem;
+  padding: 0.5rem 1rem;
 }
 
 .skillsSection li {
-  background: grey;
-  border-radius: 25px;
-  text-align: center;
+  flex: 1 1 160px;
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.2rem;
+  padding: 10px 14px;
+  border-radius: 999px;
+  background: #3a3a3a;
+  color: #fff;
+  min-height: 40px;
+  white-space: nowrap;
 }

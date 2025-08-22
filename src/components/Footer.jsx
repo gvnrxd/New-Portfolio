@@ -3,11 +3,13 @@
 const Footer = () => {
   return (
     <footer>
-      <section>
-        <h2>Footer Here</h2>
-      </section>
       <section
-        style={{ display: "flex", gap: "1rem", justifyContent: "center" }}
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          textAlign: "center",
+          wordBreak: "break-word",
+        }}
       >
         <p>
           © {new Date().getFullYear()} Gvnrxd | Built with React & Vite ⚡|{" "}
@@ -55,7 +57,7 @@ const Footer = () => {
             rel="noreferrer"
           >
             {" "}
-            GitHub |
+            GitHub
           </a>
         </p>
       </section>

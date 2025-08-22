@@ -1,0 +1,38 @@
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+}
+
+.projectsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.projectCard {
+  background: #303030;
+  border-radius: 16px;
+  color: #fff;
+  text-decoration: none; /* remove underline */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  aspect-ratio: 4 / 3;
+  transition: background 0.3s;
+  flex-grow: 1;
+}
+
+.projectCard:hover {
+  background: #404040;
+  color: #ffe082;
+  text-decoration: underline;
+}
+/* Optional: widen tiles on large screens */
+@media (min-width: 1100px) {
+  .projects {
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  }
+}

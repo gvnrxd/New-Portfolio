@@ -72,13 +72,11 @@ main {
   width: 100%;
   border-radius: 20px;
   flex: 0.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-footer {
-  gap: 1rem;
-  display: flex;
-  flex-flow: column;
-}
 /*
  ^^ Better way to write would have been to give the cards 2 classes 1 card 
 with all the shared styles and another eg:"card-footer, card-project" \

@@ -1,0 +1,17 @@
+.aboutMeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.aboutMeContainer p {
+  align-self: center;
+  flex-grow: 1;
+  text-align: center;
+  width: 90%;
+  padding: 1rem 0.5rem;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  line-height: 1.5;
+}
