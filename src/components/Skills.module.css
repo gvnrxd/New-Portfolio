@@ -1,0 +1,12 @@
+.skillsSection {
+  list-style: none;
+  background: blue;
+  display: grid;
+  gap: 1rem;
+}
+
+.skillsSection li {
+  background: grey;
+  border-radius: 25px;
+  text-align: center;
+}

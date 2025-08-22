@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-labelledby="title desc">
+  <title id="title">Computer Science Badge</title>
+  <desc id="desc">A circular badge with a computer monitor and an atom symbol on the screen.</desc>
+  <circle cx="256" cy="256" r="240" fill="#0B0B0B"/>
+  <!-- Monitor -->
+  <rect x="116" y="144" width="280" height="208" rx="24" fill="#FFFFFF"/>
+  <rect x="136" y="168" width="240" height="160" rx="8" fill="#0B0B0B"/>
+  <rect x="236" y="352" width="40" height="40" rx="6" fill="#FFFFFF"/>
+  <rect x="196" y="392" width="120" height="20" rx="10" fill="#FFFFFF"/>
+  <!-- Code lines -->
+  <rect x="184" y="300" width="144" height="8" rx="4" fill="#FFFFFF" />
+  <rect x="200" y="316" width="112" height="8" rx="4" fill="#FFFFFF" />
+  <!-- Atom -->
+  <g fill="none" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round">
+    <ellipse cx="256" cy="248" rx="68" ry="44"/>
+    <ellipse cx="256" cy="248" rx="68" ry="44" transform="rotate(60 256 248)"/>
+    <ellipse cx="256" cy="248" rx="68" ry="44" transform="rotate(-60 256 248)"/>
+  </g>
+  <circle cx="256" cy="248" r="8" fill="#FFFFFF"/>
+</svg>
