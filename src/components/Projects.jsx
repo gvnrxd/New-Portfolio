@@ -6,41 +6,53 @@ const Projects = () => {
       <h2>Projects</h2>
       <div className={styles.projects}>
         <a
-          href=""
+          href="https://gvnrxd.github.io/What-my-Grade/"
           target="_blank"
-          rel="noreferrer"
+          rel="noreferrer noopener"
           className={styles["projectCard"]}
         >
-          Project 1
+          What-my Grade
+        </a>
+        <a
+          href="https://gvnrxd.github.io/food-mock/"
+          target="_blank"
+          rel="noreferrer noopener"
+          className={styles["projectCard"]}
+        >
+          Food Service Mockup
         </a>
         <a
           href=""
           target="_blank"
-          rel="noreferrer"
+          rel="noreferrer noopener"
           className={styles["projectCard"]}
         >
-          Project 2
+          Coming Soon..
         </a>
         <a
           href=""
           target="_blank"
-          rel="noreferrer"
+          rel="noreferrer noopener"
           className={styles["projectCard"]}
         >
-          Project 3
+          Coming Soon..
         </a>
         <a
           href=""
           target="_blank"
-          rel="noreferrer"
+          rel="noreferrer noopener"
           className={styles["projectCard"]}
         >
-          Project 4
+          Coming Soon..
         </a>
-        {/* <a className={styles["projectCard"]}>Project 4</a>
-        <a className={styles["projectCard"]}>Project 5</a>
-        <a className={styles["projectCard"]}>Project 6</a>
-        */}
+        <a
+          href=""
+          target="_blank"
+          rel="noreferrer noopener"
+          className={styles["projectCard"]}
+        >
+          Coming Soon..
+        </a>
       </div>
     </section>
   );

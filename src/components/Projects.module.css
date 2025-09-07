@@ -23,6 +23,7 @@
   aspect-ratio: 4 / 3;
   transition: background 0.3s;
   flex-grow: 1;
+  text-align: center;
 }
 
 .projectCard:hover {
